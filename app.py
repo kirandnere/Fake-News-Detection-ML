@@ -29,6 +29,12 @@ def output_label(n):
 
 # 3. Streamlit Website UI
 st.title("🕵️‍♂️ Fake News Detector")
+st.sidebar.title("ℹ️ About the Developer")
+st.sidebar.info("""
+**Developed by:** Kiran Nere
+**Project:** Fake News Detection using ML
+**GitHub:** [View Code](https://github.com/kirandnere)
+""")
 st.write("Enter a news article below to check if it is Real or Fake.")
 
 # Input Box
